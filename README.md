@@ -54,4 +54,4 @@ This approach is simple and reliable because it relies on the Etherscan API (the
 
 ### Note:
 
-The project is private. In the repository, you can find screenshots displaying the predictive analysis using the API created by FastAPI (Deployed in VPS).
+The project is private (dedicated to my client). In the repository, you can find screenshots showing the predictive analysis using the API created with FastAPI (deployed on a VPS).
