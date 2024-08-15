@@ -15,7 +15,9 @@ For training the LSTM model, we utilized a dataset with over 40,000 observations
 
 Results:
 Data	MSE (Gwei)	MAE (Gwei)	MAX Error (Gwei)	75% Percentile Error (Gwei)	95% Percentile Error (Gwei)
+
 Train	0.0000575	0.00506	0.079949	0.002332	0.006
+
 Test	0.0000571	0.00503	0.110665	0.002435	0.0061
 
 Conclusion: 95% of predicted BaseGasFee values differ from the actual values by less than 0.0061 Gwei. In the worst-case scenario, the error is 0.11 Gwei. Accuracy decreases slightly for blocks beyond the next one, with errors for the second to fifth blocks ranging from 1.60 Gwei to 2.42 Gwei, with rare maximum errors up to 16.93 Gwei.
@@ -28,15 +30,19 @@ Results:
 
 Front-Running Transactions:
 Data	MSE (Gwei)	MAE (Gwei)	MAX Error (Gwei)	95% Percentile Error (Gwei)	99% Percentile Error (Gwei)
-Train	77.47	1.45	300.29	0.96	14.96
-Test	74.76	1.44	300.58	0.96	14.71
+
+Train	 77.47	      1.45	      300.29	               0.96	                       14.96
+
+Test	 74.76	      1.44	      300.58	               0.96	                       14.71
 
 Conclusion: 99% of prediction errors are less than 14.71 Gwei, with 95% of errors being less than 0.96 Gwei. Outliers occasionally exceed 200 Gwei, occurring between 1% and 2% of the time.
 
 Back-Running Transactions:
 Data	MSE (Gwei)	MAE (Gwei)	MAX Error (Gwei)	95% Percentile Error (Gwei)	99% Percentile Error (Gwei)
-Train	63.64	2.78	297.42	-0.71	12.44
-Test	62.78	2.77	297.24	-0.73	12.30
+
+Train	  63.64	      2.78	       297.42	                -0.71	                    12.44
+
+Test	  62.78	      2.77	       297.24	                -0.73	                    12.30
 
 Conclusion: 99% of prediction errors are less than 12.44 Gwei, with 95% of errors being less than -0.73 Gwei. Rare errors occur between 1% and 2% of the time.
 
