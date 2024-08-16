@@ -1,6 +1,6 @@
 # PredictiveAnalysis-Client-Project- MevStrategy - Data-Driven Decision-Making
 
-**PredictiveAnalysisProject** is designed to predict gas fees and block numbers for transactions in the Ethereum blockchain, specifically targeting the MEV (Miner Extractable Value) sandwich attack strategy. This project utilizes advanced deep learning models to forecast gas fees and optimize transaction placement, aiming to gain strategic advantages by predicting and leveraging transaction ordering and gas fees for successful MEV sandwich attacks.
+**PredictiveAnalysisProject** is designed to predict gas fees and block numbers for transactions in the Ethereum blockchain, specifically targeting the MEV (Miner Extractable Value) sandwich attack strategy. This project utilizes advanced deep learning models to forecast gas fees and optimize transaction placement, aiming to gain strategic advantages by predicting and leveraging transaction ordering and gas fees for successful MEV sandwich attacks strategy.
 
 ### Overview
 
