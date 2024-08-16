@@ -11,7 +11,7 @@ To predict Front-running and Back-running transactions' gas fees, we used the fo
 
 ### LSTM Model
 
-For training the LSTM model, we utilized a dataset with over 40,000 observations. Each observation contained block data such as `BlockTimeStamp`, `GasBaseFees`, `GasUsed`, and `BlockSize`. A lag of 1 timestamp was applied for optimal model performance, with Mean Squared Error (MSE) as the loss function.
+For training the LSTM model, we utilized a dataset with over 40,000 observations, and for testing, we utilized more than 16,000 observations. Each observation contained block data such as `BlockTimeStamp`, `GasBaseFees`, `GasUsed`, and `BlockSize`. A lag of 1 timestamp was applied for optimal model performance, with Mean Squared Error (MSE) as the loss function.
 
 **Results:**
 
